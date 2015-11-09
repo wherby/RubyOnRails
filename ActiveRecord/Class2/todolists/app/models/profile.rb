@@ -18,4 +18,7 @@ class Profile < ActiveRecord::Base
     end
   end
   
+  def self.get_all_profiles(min,max)
+    Profile.where("birth_year BETWEEN ? AND ?",min,max).order(birth_year: :asc)
+  end
 end

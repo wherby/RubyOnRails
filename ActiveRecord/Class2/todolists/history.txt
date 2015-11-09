@@ -1,0 +1,131 @@
+  Id CommandLine
+  -- -----------
+   1 g r
+   2 cd .\ActiveRecord\Class2
+   3 rails new todolists
+   4 rails generate rspec:install
+   5 bundle
+   6 cd .\todolists
+   7 rails generate rspec:install
+   8 bundle update
+   9 rspec -e rq01
+  10 rails g model User username password_digest
+  11 rake db:migrate
+  12 rspec -e rq02
+  13 rails g model Profile gender birth_year:integer first_name last_name user:references
+  14 rake db:migrate
+  15 rspec -e rq03
+  16 rspec -e rq03
+  17 rails g model TodoList list_name list_due_date:date
+  18 rake db:migrate
+  19 rspec -e rq04
+  20 rails g migration create_todoLists_users todo_list:references user:references
+  21 rake db:migrate
+  22 rspec -e rq05
+  23 rails g model TodoItem due_date:date title description:text completed:boolean todo_list:references
+  24 rake db:migrate
+  25 rspec -e rq06
+  26 rspec -e rq06
+  27 rspec -e rq06
+  28 rspec -e rq06
+  29 rspec -e rq07
+  30 start .
+  31 rspec -e rq09
+  32 rspec -e rq09
+  33 rspec -e rq08
+  34 rake db:seed
+  35 rake db:seed
+  36 rake db:seed
+  37 rake db:seed
+  38 rake db:seed
+  39 rake db:seed
+  40 rake db:seed
+  41 rake db:seed
+  42 rake db:seed
+  43 rake db:seed
+  44 rake db:seed
+  45 rake db:seed
+  46 rake db:seed
+  47 rake db:seed
+  48 rake db:migrate
+  49 rake db:seed
+  50 rake db:seed
+  51 rake db:seed
+  52 rake db:seed
+  53 g r
+  54 cd .\ActiveRecord\Class2
+  55 rake db:seed
+  56 cd .\todolists
+  57 rake db:seed
+  58 rake db:seed
+  59 rake db:reset
+  60 rake db:seed
+  61 rails db
+  62 bundle install sqlite3
+  63 bundle show sqlite3
+  64 rails db
+  65 $PATH
+  66 echo $PATH%
+  67 echo $PATH$
+  68 echo $PATH
+  69 PATH=$PATH;D:/Ruby/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sqlite3-1.3.11-x64-mingw32
+  70 export PATH=$PATH;D:/Ruby/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sqlite3-1.3.11-x64-mingw32
+  71 D:/Ruby/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sqlite3-1.3.11-x64-mingw32
+  72 rails db
+  73 bundle show sqlite3
+  74 bundle show sqlite3
+  75 rails db
+  76 rails
+  77 rails c
+  78 history
+  79 rails g migration add_user_reference_to_todo_lists user:references
+  80 rake db:migrate
+  81 rake db:seed
+  82 history
+  83 rake db:seed
+  84 rake db:seed
+  85 rspec -e rq009
+  86 rspec -e rq09
+  87 rspec -e rq10
+  88 rspec -e rq11
+  89 rspec -e rq11
+  90 rspec -e rq11
+  91 rspec -e rq11
+  92 rspec -e rq11
+  93 rspec -e rq11
+  94 rspec -e rq11
+  95 rspec -e rq11
+  96 rspec -e rq11
+  97 rspec -e rq03
+  98 rspec -e rq11
+  99 rspec -e rq12
+ 100 rspec -e rq12
+ 101 rspec -e rq13
+ 102 rspec -e rq13
+ 103 rails g migration add_todo_list_reference_to_users todo_list:references
+ 104 rake db:migrate
+ 105 rspec -e rq13
+ 106 rspec -e rq13
+ 107 rails c
+ 108 rails c
+ 109 rspec -e rq13
+ 110 rspec -e rq13
+ 111 rspec -e rq13
+ 112 rspec -e rq13
+ 113 rspec -e rq13
+ 114 rspec -e rq13
+ 115 rake db:reset
+ 116 rake db:seed
+ 117 rspec -e rq13
+ 118 rspec -e rq13
+ 119 rspec -e rq13
+ 120 rspec -e rq13
+ 121 rspec -e rq13
+ 122 rspec -e rq13
+ 123 rspec -e rq14
+ 124 rspec -e rq14
+ 125 rspec -e rq14
+ 126 rspec -e rq14
+ 127 rspec -e rq14
+ 128 rspec -e rq14
+ 129 rspec
