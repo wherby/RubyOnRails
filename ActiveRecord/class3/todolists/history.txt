@@ -1,0 +1,52 @@
+  Id CommandLine
+  -- -----------
+   1 g r
+   2 cd .\ActiveRecord
+   3 ls
+   4 mkdir class3
+   5 cd .\class3
+   6 ls
+   7 rails new todolists
+   8 cd .\todolists
+   9 bundle
+  10 bundle
+  11 bundle install
+  12 bundle install
+  13 bundle
+  14 rails generate rspec:install
+  15 start .
+  16 rspec -e rq01
+  17 bundle
+  18 rspec -e rq01
+  19 bundle update
+  20 rspec -e rq01
+  21 ls
+  22 rails g model TodoItem due_date:date title description:text completed:boolean
+  23 rake db:migreate
+  24 rake db:migrate
+  25 rspec -e rq02
+  26 rake db:seed RAILS_ENV=test
+  27 rake db:migrate
+  28 rspec -e rq02
+  29 Use rails db -e test
+  30 rails db -e test
+  31 rails db -e test
+  32 rake db:migrate
+  33 rspec -e rq02
+  34 rake db:migrate RAILS_ENV=test
+  35 rspec -e rq02
+  36 rspec -e rq01
+  37 bundle update
+  38 rspec -e rq01
+  39 rails g scaffold TodoItem due_date:date title description:text completed:boolean
+  40 rake db:seed RAILS_ENV=test
+  41 rake db:migrate
+  42 rspec -e rq02
+  43 rake db:migrate RAILS_ENV=test
+  44 rspec -e rq02
+  45 rails db -e test
+  46 rake db/seeds.rb
+  47 rake db:seed
+  48 rspec -e rq03
+  49 rails s
+
