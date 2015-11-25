@@ -1,0 +1,61 @@
+  -- -----------
+   1 g c
+   2 cd ..
+   3 cd .\api-logs-processing
+   4 start .
+   5 sbt assembly
+   6 start .
+   7 start .
+   8 cd ..
+   9 start .
+  10 cd .\api-logs-processing
+  
+  26 ls
+  27 cd .\ActiveRecord
+  28 ls
+  29 mkdir class4
+  30 cd .\Class2
+  31 cd ..\class4
+  32 rails new i_reviewed
+  33 cd .\i_reviewed
+  34 rails g model reviewer name password_digest
+  35 rails g model book name author reviewer:references
+  36 railss g model note title note:text book:references
+  37 rails g model note title note:text book:references
+  38 rake db:migrate
+  39 rake db:seed
+  40 rails db
+  41 rake db:migrate
+  42 rake db:seed
+  43 rails db
+  44 rails g scaffold_controller book name author
+  45 rake db:seed
+  46 rake db:seed
+  47 rails db
+  48 rails g controller notes
+  49 rails route
+  50 rake routes
+  51 rake routes
+  52 rake db:seed
+  53 cd ..
+  54 cd ..
+  55 cd ..
+  56 cd ..
+  57 ls
+  58 git clone https://github.com/jhu-ep-coursera/fullstack-course2-module4-i-reviewed.git
+  59 start .
+  60 cd .\RubyOnRails\ActiveRecord\class4
+  61 cd .\i_reviewed
+  62 bundle
+  63 rails c
+  64 rake db:seed
+  65 rails c
+  66 rails g controller sessions new create destroy
+  67 rake route
+  68 rake routes
+  69 rake routes
+  70 rake db:seed
+  71 rake db:seed
+  72 bundle
+  73 rake db:seed
+  74 bundle
