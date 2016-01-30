@@ -1,5 +1,6 @@
 require 'BSON'
 class Racer
+	include ActiveModel::Model
 	attr_accessor :id, :number, :first_name, :last_name, :gender, :group, :secs
 	def self.mongo_client
 		Mongoid::Clients.default
@@ -77,4 +78,16 @@ class Racer
 				.find(:_id=>BSON::ObjectId.from_string(@id))
 				.delete_one   
 	end  
+	
+	# ActiveModel
+	def persisted?
+		!@id.nil?
+	end
+	
+	def created_at
+		nil
+	end
+	def updated_at
+		nil
+	end
 end	
